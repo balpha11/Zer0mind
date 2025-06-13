@@ -4,11 +4,7 @@ This project contains the React front‑end for the Zer0mind prototype. The UI i
 
 The admin interface includes pages for agents, flows, tools, prompts, plans and more. All communication with the backend is centralized in `src/services/api.js`, which exposes small helper functions for authentication, agent management and other REST endpoints.
 
-A minimal Python demo is provided by `exampleagent.py` (removed in later commits). It showcases the `openai-agents` SDK with several agents:
 
-- a haiku weather bot using a simple function tool,
-- a calendar extraction agent that outputs a `CalendarEvent` model,
-- a triage agent demonstrating dynamic instructions, handoffs and a guardrail to filter homework requests.
 
 Running the script will execute each agent and print their responses.
 
